@@ -1,0 +1,13 @@
+\\hucms11c.cms.hu-berlin.de\home\abt3\preusskh\eigene dateien\visual studio 2013\Projects\DisplaySceduler\DisplaySceduler\bin\Debug\DisplaySceduler.exe.config
+\\hucms11c.cms.hu-berlin.de\home\abt3\preusskh\eigene dateien\visual studio 2013\Projects\DisplaySceduler\DisplaySceduler\bin\Debug\DisplaySceduler.exe
+\\hucms11c.cms.hu-berlin.de\home\abt3\preusskh\eigene dateien\visual studio 2013\Projects\DisplaySceduler\DisplaySceduler\bin\Debug\DisplaySceduler.pdb
+\\hucms11c.cms.hu-berlin.de\home\abt3\preusskh\eigene dateien\visual studio 2013\Projects\DisplaySceduler\DisplaySceduler\obj\Debug\DisplaySceduler.csprojResolveAssemblyReference.cache
+\\hucms11c.cms.hu-berlin.de\home\abt3\preusskh\eigene dateien\visual studio 2013\Projects\DisplaySceduler\DisplaySceduler\obj\Debug\DisplaySceduler.exe
+\\hucms11c.cms.hu-berlin.de\home\abt3\preusskh\eigene dateien\visual studio 2013\Projects\DisplaySceduler\DisplaySceduler\obj\Debug\DisplaySceduler.pdb
+C:\Users\kalle\Documents\Visual Studio 2015\Projects\DisplaySceduler\DisplaySceduler\bin\Debug\DisplaySceduler.exe.config
+C:\Users\kalle\Documents\Visual Studio 2015\Projects\DisplaySceduler\DisplaySceduler\obj\Debug\DisplaySceduler.exe
+C:\Users\kalle\Documents\Visual Studio 2015\Projects\DisplaySceduler\DisplaySceduler\obj\Debug\DisplaySceduler.pdb
+C:\Users\kalle\Documents\Visual Studio 2015\Projects\DisplaySceduler\DisplaySceduler\bin\Debug\DisplaySceduler.exe
+C:\Users\kalle\Documents\Visual Studio 2015\Projects\DisplaySceduler\DisplaySceduler\bin\Debug\DisplaySceduler.pdb
+C:\Users\kalle\Documents\Visual Studio 2015\Projects\DisplaySceduler\DisplaySceduler\obj\Debug\DisplaySceduler.csprojResolveAssemblyReference.cache
+C:\Users\kalle\Documents\Visual Studio 2015\Projects\DisplaySceduler\DisplaySceduler\obj\Debug\DisplaySceduler.csproj.ResolveComReference.cache
