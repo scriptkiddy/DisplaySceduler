@@ -10,26 +10,32 @@ namespace DisplaySceduler
 {
     class Program
     {
+        static int DebugLevel = 1;
         static void Main(string[] args)
         {
             Console.WriteLine("schliesse alte Präsentationen");
             KillProcessByName("POWERPNT");
-
             List<string> AcceptedSuffixes = new List<string>();
             AcceptedSuffixes.Add(".ppt");
             AcceptedSuffixes.Add(".pptx");
             AcceptedSuffixes.Add(".pdf");
             AcceptedSuffixes.Add(".pwww");
             string Path = "C:\\slides\\";
+            Console.WriteLine("Pfad für Präsentationen: {0}\n", Path);
             PresenterFolder Folder = new PresenterFolder(AcceptedSuffixes, Path);
-            Console.WriteLine(Folder.ToString());
-            Console.Write("press any key to continue ...");
-            Console.ReadLine();
+            if (DebugLevel > 0)
+            {
+                Console.WriteLine(Folder.ToString());
+                Console.Write("press any key to continue ...");
+                Console.ReadLine();
+            }
             PresenterFile CurrentPresenterFile = Folder.GetCurrentPresenterFile();
-            Console.WriteLine(CurrentPresenterFile.ToString());
-            Console.Write("press any key to continue ...");
-            Console.ReadLine();
-
+            if (DebugLevel > 0)
+            {
+                Console.WriteLine(CurrentPresenterFile.ToString());
+                Console.Write("press any key to continue ...");
+                Console.ReadLine();
+            }
             try
             {
                 PowerPoint.Application oPPT;
@@ -58,16 +64,6 @@ namespace DisplaySceduler
                     slide.SlideShowTransition.AdvanceTime = 1;
 
                 }
-                //Console.ReadLine();
-                //TextReader tr = new StreamReader(folder + "zusatz_info\\an.txt");
-                //if (tr.ReadLine() == "voll")
-                //{
-                //    foreach (Microsoft.Office.Interop.PowerPoint.Slide s in objPres.Slides)
-                //    {
-                //        s.Shapes.AddPicture(folder + "zusatz_info\\das_haus_ist_voll.gif", MsoTriState.msoTrue, MsoTriState.msoFalse, 0, 500, 720, 40);
-                //    }
-                //}
-                objPres.SlideShowSettings.Run();
             }
             catch (Exception Ex)
             {

@@ -11,3 +11,10 @@ C:\Users\kalle\Documents\Visual Studio 2015\Projects\DisplaySceduler\DisplaySced
 C:\Users\kalle\Documents\Visual Studio 2015\Projects\DisplaySceduler\DisplaySceduler\bin\Debug\DisplaySceduler.pdb
 C:\Users\kalle\Documents\Visual Studio 2015\Projects\DisplaySceduler\DisplaySceduler\obj\Debug\DisplaySceduler.csprojResolveAssemblyReference.cache
 C:\Users\kalle\Documents\Visual Studio 2015\Projects\DisplaySceduler\DisplaySceduler\obj\Debug\DisplaySceduler.csproj.ResolveComReference.cache
+N:\GIT\DisplaySceduler\DisplaySceduler\bin\Debug\DisplaySceduler.exe.config
+N:\GIT\DisplaySceduler\DisplaySceduler\obj\Debug\DisplaySceduler.csproj.ResolveComReference.cache
+N:\GIT\DisplaySceduler\DisplaySceduler\obj\Debug\DisplaySceduler.exe
+N:\GIT\DisplaySceduler\DisplaySceduler\obj\Debug\DisplaySceduler.pdb
+N:\GIT\DisplaySceduler\DisplaySceduler\bin\Debug\DisplaySceduler.exe
+N:\GIT\DisplaySceduler\DisplaySceduler\bin\Debug\DisplaySceduler.pdb
+N:\GIT\DisplaySceduler\DisplaySceduler\obj\Debug\DisplaySceduler.csprojResolveAssemblyReference.cache
