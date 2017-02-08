@@ -18,3 +18,7 @@ N:\GIT\DisplaySceduler\DisplaySceduler\obj\Debug\DisplaySceduler.pdb
 N:\GIT\DisplaySceduler\DisplaySceduler\bin\Debug\DisplaySceduler.exe
 N:\GIT\DisplaySceduler\DisplaySceduler\bin\Debug\DisplaySceduler.pdb
 N:\GIT\DisplaySceduler\DisplaySceduler\obj\Debug\DisplaySceduler.csprojResolveAssemblyReference.cache
+C:\Users\oper\GIT\DisplaySceduler\DisplaySceduler\bin\Debug\DisplaySceduler.exe.config
+C:\Users\oper\GIT\DisplaySceduler\DisplaySceduler\obj\Debug\DisplaySceduler.csproj.ResolveComReference.cache
+C:\Users\oper\GIT\DisplaySceduler\DisplaySceduler\obj\Debug\DisplaySceduler.exe
+C:\Users\oper\GIT\DisplaySceduler\DisplaySceduler\obj\Debug\DisplaySceduler.pdb
