@@ -91,13 +91,14 @@ namespace DisplaySceduler
 
         public override string ToString()
         {
-            return String.Format("--------------------------------------------------------------------------------{0}\n{1}\n{2}\n{3}\n{4}\n{5}\n--------------------------------------------------------------------------------",
+            return String.Format("--------------------------------------------------------------------------------{0}\n{1}\n{2}\n{3}\n{4}\n{5}\n{6}\n--------------------------------------------------------------------------------",
                 this.Filename,
                 this.Type,
                 this.DateTimeString,
                 this.StartOfDisplayTime,
                 this.EndOfDisplayTime,
-                this.GetTimeSpan()
+                this.GetTimeSpan(),
+                DateTime.Now
                 );
         }
 
