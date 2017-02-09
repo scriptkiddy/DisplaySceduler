@@ -50,7 +50,7 @@ Die aktuellen Quellen für den DisplaySceduler finden Sie immer auf: [GitHub](ht
 		<td>-d _Zahl_</td>
 		<td>Mit dieser Zahl kann eine Azahl von Sekunden angegeben werden die als Zeitdauer für Folien ohne voreingestellte Zeitdauer  verwendet werden soll</td>
 	<tr>
-		<td width="100%">-p _Ordnerpfad_</td>
+		<td width="200">-p _Ordnerpfad_</td>
 		<td>Ordnerpfad zum dem Ordner in dem die Powerpointdatien liegen die angezeigt werden sollen</td>
 	</tr>
 </table>
