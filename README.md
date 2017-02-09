@@ -40,7 +40,7 @@ es hat sich als sinnvolle Praxis ergeben, dass man einen Foliensatz erstellt der
 Diesen Foliensatz kann man immer wieder verändern, so dass er zum Beispiel die aktuellen Ankündigungen und allgemeine Hinweise enthält. Wenn man nun zusätzlich zu dieser allgmeinen Rotation für einzelne Ereignisse Ausnahmen festlegen will kann man einfach für bestimmte Tage oder Zeiträume weitere Foliensätze in den gleichen Ordner ablegen.
 
 ## Hinweise für Administratoren:
-
+Die aktuellen Quellen für den DisplaySceduler finden Sie immer auf: [GitHub](https://github.com/scriptkiddy/DisplaySceduler.git)
 ### Kommandozeilenparameter:
 	-v
 	Debugging einschalten, dieser Parameter sollte nicht im Betrieb verwendet werden
