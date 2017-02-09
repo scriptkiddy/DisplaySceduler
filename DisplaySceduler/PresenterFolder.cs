@@ -35,7 +35,7 @@ namespace DisplaySceduler
         public PresenterFile GetCurrentPresenterFile()
         {
             DateTime Now = DateTime.Now;
-            PresenterFile CurrentPresenterFile = new PresenterFile(this.Path + "default.ppt", new DateTime(1,1,1,0,0,0), new DateTime(4000,12,31,23,59,59));
+            PresenterFile CurrentPresenterFile = new PresenterFile(System.IO.Directory.GetCurrentDirectory() + "\\default.ppt", new DateTime(1,1,1,0,0,0), new DateTime(4000,12,31,23,59,59));
             foreach (PresenterFile PF in this.PresenterFiles)
             {
                 if (PF.IsCurrent())

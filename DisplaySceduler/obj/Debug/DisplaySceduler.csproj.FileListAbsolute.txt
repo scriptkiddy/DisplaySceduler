@@ -22,3 +22,6 @@ C:\Users\oper\GIT\DisplaySceduler\DisplaySceduler\bin\Debug\DisplaySceduler.exe.
 C:\Users\oper\GIT\DisplaySceduler\DisplaySceduler\obj\Debug\DisplaySceduler.csproj.ResolveComReference.cache
 C:\Users\oper\GIT\DisplaySceduler\DisplaySceduler\obj\Debug\DisplaySceduler.exe
 C:\Users\oper\GIT\DisplaySceduler\DisplaySceduler\obj\Debug\DisplaySceduler.pdb
+C:\Users\oper\GIT\DisplaySceduler\DisplaySceduler\bin\Debug\DisplaySceduler.exe
+C:\Users\oper\GIT\DisplaySceduler\DisplaySceduler\bin\Debug\DisplaySceduler.pdb
+C:\Users\oper\GIT\DisplaySceduler\DisplaySceduler\obj\Debug\DisplaySceduler.csprojResolveAssemblyReference.cache

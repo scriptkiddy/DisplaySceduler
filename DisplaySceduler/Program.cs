@@ -10,6 +10,7 @@ namespace DisplaySceduler
 {
     class Program
     {
+
         static int DebugLevel = 0;
         static void Main(string[] args)
         {
