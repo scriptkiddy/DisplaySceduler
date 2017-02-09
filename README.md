@@ -14,37 +14,22 @@ Alle Dateinamen beginnen mit dem Wort "play", dahinter folgt eine Datumsangabe u
 
 #### 1.1 einzelner Tag
 > Wenn der Foliensatz an einem bestimmten ganzen Tag gezeigt werden soll, kann das Datum einfach im amerikanischen Datumsformat angehängt werden.
-<table>
-	<tr>
-		<td>Konvention:</td>
-		<td>playYYYYMMDD.ppt(x)</td>
-	</tr>
-	<tr>
-		<td>Beispiel:</td>
-		<td>play20170208.ppt - Diese Datei soll am 8. Februar 2017 abgespielt werden.</td>
-	</tr>
-</table>
 
+|Konvention:|playYYYYMMDD.ppt(x)|
+| :------------ | :------------ |
+| Beispiel: |play20170208.ppt - Diese Datei soll am 8. Februar 2017 abgespielt werden.|
 
 #### 1.2 bestimmter Zeitraum
 > Wenn der Foliensatz einen bestimmten Zeitraum lang angezeigt werden soll, kann auch der Zeitraum minutengenau angegeben werden.
-<table>
-	<tr>
-		<td>Konvention:</td>
-		<td>playYYYYMMDD_HHMM-YYYYMMDD_HHMM.ppt(x)</td>
-	</tr>
-	<tr>
-		<td>Beispiel:</td>
-		<td>play20170101_0000-20171231_2359.ppt - Diese Datei wird das ganze Jahr 2017 angezeigt.</td>
-	</tr>
-	<tr>
-		<td>Beispiel:</td>
-		<td>play20170208_1530-20170208_2000.ppt - Diese Datei wird am 8.  Februar von 15:30 bis 20:00 Uhr angezeigt.</td>
-	</tr>
-</table>
+
+|Konvention:|playYYYYMMDD_HHMM-YYYYMMDD_HHMM.ppt(x)|
+| :------------ | :------------ |
+|Beispiel:|play20170101_0000-20171231_2359.ppt - Diese Datei wird das ganze Jahr 2017 angezeigt.|
+|Beispiel:|play20170208_1530-20170208_2000.ppt - Diese Datei wird am 8.  Februar von 15:30 bis 20:00 Uhr angezeigt.|
+
 > __!Achtung es müssen immer auch Minuten angegeben werden!__
 
-Wenn mehrere Dateien zum aktuellen Zeitpunkt passen wird immer die Datei mit dem __kleinsten Zeitraum__ ausgewählt. Am 8. Februar 2017 um 15:45 Uhr würde also aus den Dateien oben die letzte Datei ausgewählt werden weil ihr Zeitrum nur wenige Stunden umfasst.
+> Wenn mehrere Dateien zum aktuellen Zeitpunkt passen wird immer die Datei mit dem __kleinsten Zeitraum__ ausgewählt. Am 8. Februar 2017 um 15:45 Uhr würde also aus den Dateien oben die letzte Datei ausgewählt werden weil ihr Zeitrum nur wenige Stunden umfasst.
 
 ### Hinweis:
 es hat sich als sinnvolle Praxis ergeben, dass man einen Foliensatz erstellt der das ganze Jahr angezeigt werden soll. In diesen Foliensatz tut man einfach all die Folien die jederzeit in Rotation angezeigt werden sollen. 
@@ -53,18 +38,13 @@ Diesen Foliensatz kann man immer wieder verändern, so dass er zum Beispiel die 
 ## Hinweise für Administratoren:
 Die aktuellen Quellen für den DisplaySceduler finden Sie immer auf: [GitHub](https://github.com/scriptkiddy/DisplaySceduler.git)
 ### Kommandozeilenparameter:
-<table>
-	<tr>
-		<td>-v</td>
-		<td>Debugging einschalten, dieser Parameter sollte nicht im Betrieb verwendet werden</td>
-	<tr>
-		<td>-d Zahl</td>
-		<td>Mit dieser Zahl kann eine Azahl von Sekunden angegeben werden die als Zeitdauer für Folien ohne voreingestellte Zeitdauer  verwendet werden soll</td>
-	<tr>
-		<td width="200">-p Ordnerpfad</td>
-		<td>Ordnerpfad zum dem Ordner in dem die Powerpointdatien liegen die angezeigt werden sollen</td>
-	</tr>
-</table>
+|Parameter|Bedeutung|
+| :------------ | :------------ |
+| -v|Debugging einschalten, dieser Parameter sollte nicht im Betrieb verwendet werden|
+|-d Zahl|Mit dieser Zahl kann eine Azahl von Sekunden angegeben werden die als Zeitdauer für Folien ohne voreingestellte Zeitdauer  verwendet werden soll|
+|-p Ordnerpfad|Ordnerpfad zum dem Ordner in dem die Powerpointdatien liegen die angezeigt werden sollen|
+
+
 ### default.ppt
 Im gleichen Ordner wie das Programm muss noch eine default.ppt Datei Hinterlegt sein. Diese wird angezeigt, wenn nichts anderes angezeigt werden kann. Dort Sollte also ein allgemeiner Hintergrund zu sehen sein oder vielleicht eine Kontaktinformation von demjenigen der das Display verwaltet.
 
@@ -75,25 +55,10 @@ frei. Dann braucht der Redakteur des Displays später nur Dateien in dem Ordner 
 Folie wechseln kann, sollte man einen Windows Task erstellen der alle x Minuten läuft. Dann wird alle x Minuten erneut der Foliensatz ausgewählt. Wenn man mit den Beispielen oben den Displaysceduler alle 20 Minuten (00, 20 40) starten  würde, würde also um 15:40 Uhr am 8. Februar 2017 die Folie für 15:30 bis 20:00 ausgewählt werden davor die Folie für den ganzen Tag.
 
 ### Ordnerinhalt
-<table>
-	<tr>
-		<td> DisplaySceduler </td>
-		<td>:</td>
-		<td>Ordner mit dem VisualStudio Projekt</td>
-	</tr>
-	<tr>
-		<td>slides</td>
-		<td>:</td>
-		<td>Ordner mit Beispiel Foliensätzen (inkl. default.ppt)</td>
-	</tr>
-	<tr>
-		<td>DisplaySceduler.sln</td>
-		<td>:</td>
-		<td>VisualStudio Projekt-Datei</td>
-	</tr>
-	<tr>
-		<td>README.md</td>
-		<td>:</td>
-		<td>die README-Datei</td>
-	</tr>
-</table>
+
+|Datei/Ordner|Erklärung|
+| :------------ | :------------ |
+|DisplaySceduler/|Ordner mit dem VisualStudio Projekt|
+|slides/|Ordner mit Beispiel Foliensätzen (inkl. default.ppt)|
+|DisplaySceduler.sln|VisualStudio Projekt-Datei|
+|README.md|die README-Datei|
