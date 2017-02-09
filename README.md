@@ -65,8 +65,8 @@ Folie wechseln kann, sollte man einen Windows Task erstellen der alle x Minuten 
 	DisplaySceduler.sln	: VisualStudio Projekt-Datei
 	README.md		: die README-Datei
 	
-|DisplaySceduler|   |   |   |   |
+|DisplaySceduler|:|Ordner mit dem VisualStudio Projekt|
 |---|---|---|---|---|
-|slides|   |   |   |   |
-|DisplaySceduler.sln|   |   |   |   |
-|README.md|   |   |   |   |
+|slides|:|Ordner mit Beispiel Foliensätzen (inkl. default.ppt)|
+|DisplaySceduler.sln|:|VisualStudio Projekt-Datei|
+|README.md|:|die README-Datei|
