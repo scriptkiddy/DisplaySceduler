@@ -58,3 +58,10 @@ DisplaySceduler muss auf einem Computer mit Windows 7 oder neuer verwendet werde
 Displaysceduler im Windows Autostart per Script (.bat-Datei) und stellt im  Windows für den Benutzer Autloogin ein. Den Ordner mit den Foliensätzen holt man entweder aus einem Netzlaufwerk oder gibt den Ordner per Windowsfreigabe
 frei. Dann braucht der Redakteur des Displays später nur Dateien in dem Ordner bearbeiten. Der angezeigte Foliensatz wird immer nur beim Start des DisplayScedulers ausgewählt. Wenn man möchte, dass das Auch tagsüber die Angezeigt 
 Folie wechseln kann, sollte man einen Windows Task erstellen der alle x Minuten läuft. Dann wird alle x Minuten erneut der Foliensatz ausgewählt. Wenn man mit den Beispielen oben den Displaysceduler alle 20 Minuten (00, 20 40) starten  würde, würde also um 15:40 Uhr am 8. Februar 2017 die Folie für 15:30 bis 20:00 ausgewählt werden davor die Folie für den ganzen Tag.
+
+### Ordnerinhalt
+	|DisplaySceduler | Ordner mit dem VisualStudio Projekt|
+	|slides | Ordner mit Beispiel Foliensätzen (inkl. default.ppt)|
+	|DisplaySceduler.sln | VisualStudio Projekt-Datei|
+	|README.md | die README-Datei|
+	
