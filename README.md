@@ -42,14 +42,18 @@ Diesen Foliensatz kann man immer wieder verändern, so dass er zum Beispiel die 
 ## Hinweise für Administratoren:
 Die aktuellen Quellen für den DisplaySceduler finden Sie immer auf: [GitHub](https://github.com/scriptkiddy/DisplaySceduler.git)
 ### Kommandozeilenparameter:
-	-v
-	Debugging einschalten, dieser Parameter sollte nicht im Betrieb verwendet werden
-	
-	-d <Zahl>
-	Mit dieser Zahl kann eine Azahl von Sekunden angegeben werden die als Zeitdauer für Folien ohne voreingestellte Zeitdauer  verwendet werden soll
-	
-	 -p <Ordnerpfad>
-	Ordnerpfad zum dem Ordner in dem die Powerpointdatien liegen die angezeigt werden sollen
+<table>
+	<tr>
+		<td>-v</td>
+		<td>Debugging einschalten, dieser Parameter sollte nicht im Betrieb verwendet werden</td>
+	<tr>
+		<td>-d *Zahl*</td>
+		<td>Mit dieser Zahl kann eine Azahl von Sekunden angegeben werden die als Zeitdauer für Folien ohne voreingestellte Zeitdauer  verwendet werden soll</td>
+	<tr>
+		<td>-p *Ordnerpfad*</td>
+		<td>Ordnerpfad zum dem Ordner in dem die Powerpointdatien liegen die angezeigt werden sollen</td>
+	</tr>
+</table>
 ### default.ppt
 Im gleichen Ordner wie das Programm muss noch eine default.ppt Datei Hinterlegt sein. Diese wird angezeigt, wenn nichts anderes angezeigt werden kann. Dort Sollte also ein allgemeiner Hintergrund zu sehen sein oder vielleicht eine Kontaktinformation von demjenigen der das Display verwaltet.
 
@@ -60,10 +64,6 @@ frei. Dann braucht der Redakteur des Displays später nur Dateien in dem Ordner 
 Folie wechseln kann, sollte man einen Windows Task erstellen der alle x Minuten läuft. Dann wird alle x Minuten erneut der Foliensatz ausgewählt. Wenn man mit den Beispielen oben den Displaysceduler alle 20 Minuten (00, 20 40) starten  würde, würde also um 15:40 Uhr am 8. Februar 2017 die Folie für 15:30 bis 20:00 ausgewählt werden davor die Folie für den ganzen Tag.
 
 ### Ordnerinhalt
-	DisplaySceduler		: Ordner mit dem VisualStudio Projekt
-	slides			: Ordner mit Beispiel Foliensätzen (inkl. default.ppt)
-	DisplaySceduler.sln	: VisualStudio Projekt-Datei
-	README.md		: die README-Datei
 <table>
 	<tr>
 		<td> DisplaySceduler </td>
