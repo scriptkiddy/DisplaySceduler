@@ -13,7 +13,7 @@ Diese beiden Änderungen sollen häufige Fehler, wegen denen der Foliensatz auf 
 Alle Dateinamen beginnen mit dem Wort "play", dahinter folgt eine Datumsangabe und als Dateiendung wird wie gewohnt "ppt" oder "pptx" verwendet.
 
 #### 1.1 einzelner Tag
-	Wenn der Foliensatz an einem bestimmten ganzen Tag gezeigt werden soll, kann das Datum einfach im amerikanischen Datumsformat angehängt werden.
+> Wenn der Foliensatz an einem bestimmten ganzen Tag gezeigt werden soll, kann das Datum einfach im amerikanischen Datumsformat angehängt werden.
 <table>
 	<tr>
 		<td>Konvention:</td>
@@ -27,7 +27,7 @@ Alle Dateinamen beginnen mit dem Wort "play", dahinter folgt eine Datumsangabe u
 
 
 #### 1.2 bestimmter Zeitraum
-	Wenn der Foliensatz einen bestimmten Zeitraum lang angezeigt werden soll, kann auch der Zeitraum minutengenau angegeben werden.
+> Wenn der Foliensatz einen bestimmten Zeitraum lang angezeigt werden soll, kann auch der Zeitraum minutengenau angegeben werden.
 <table>
 	<tr>
 		<td>Konvention:</td>
@@ -42,7 +42,7 @@ Alle Dateinamen beginnen mit dem Wort "play", dahinter folgt eine Datumsangabe u
 		<td>play20170208_1530-20170208_2000.ppt - Diese Datei wird am 8.  Februar von 15:30 bis 20:00 Uhr angezeigt.</td>
 	</tr>
 </table>
-__!Achtung es müssen immer auch Minuten angegeben werden!__
+> __!Achtung es müssen immer auch Minuten angegeben werden!__
 
 Wenn mehrere Dateien zum aktuellen Zeitpunkt passen wird immer die Datei mit dem __kleinsten Zeitraum__ ausgewählt. Am 8. Februar 2017 um 15:45 Uhr würde also aus den Dateien oben die letzte Datei ausgewählt werden weil ihr Zeitrum nur wenige Stunden umfasst.
 
