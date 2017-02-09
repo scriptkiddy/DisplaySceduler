@@ -60,8 +60,8 @@ frei. Dann braucht der Redakteur des Displays später nur Dateien in dem Ordner 
 Folie wechseln kann, sollte man einen Windows Task erstellen der alle x Minuten läuft. Dann wird alle x Minuten erneut der Foliensatz ausgewählt. Wenn man mit den Beispielen oben den Displaysceduler alle 20 Minuten (00, 20 40) starten  würde, würde also um 15:40 Uhr am 8. Februar 2017 die Folie für 15:30 bis 20:00 ausgewählt werden davor die Folie für den ganzen Tag.
 
 ### Ordnerinhalt
-	|DisplaySceduler | Ordner mit dem VisualStudio Projekt|
-	|slides | Ordner mit Beispiel Foliensätzen (inkl. default.ppt)|
-	|DisplaySceduler.sln | VisualStudio Projekt-Datei|
-	|README.md | die README-Datei|
+	DisplaySceduler		: Ordner mit dem VisualStudio Projekt
+	slides			: Ordner mit Beispiel Foliensätzen (inkl. default.ppt)
+	DisplaySceduler.sln	: VisualStudio Projekt-Datei
+	README.md		: die README-Datei
 	
