@@ -26,24 +26,33 @@ namespace DisplaySceduler
         public PresenterFile (string Filename)
         {
             this.Filename = Filename;
-            if(Filename.EndsWith(".pptx"))
+            Console.WriteLine("hier " + this.Filename);
+            if (Filename.EndsWith(".pptx"))
             {
                 Type = PresentationType.PowerPoint;
-                this.DateTimeString = Path.GetFileName(Filename).Substring(4, Path.GetFileName(Filename).Length - 9);
-            }else if (Filename.EndsWith(".ppt"))
+                this.DateTimeString = Path.GetFileName(Filename).Substring(4);
+                this.DateTimeString = this.DateTimeString.Substring(0, DateTimeString.IndexOf('.'));
+            }
+            else if (Filename.EndsWith(".ppt"))
             {
                 Type = PresentationType.PowerPoint;
-                this.DateTimeString = Path.GetFileName(Filename).Substring(4, Path.GetFileName(Filename).Length - 8);
+                //this.DateTimeString = Path.GetFileName(Filename).Substring(4, Path.GetFileName(Filename).Length - 8);
+                this.DateTimeString = Path.GetFileName(Filename).Substring(4);
+                this.DateTimeString = this.DateTimeString.Substring(0, DateTimeString.IndexOf('.'));
             }
             else if (Filename.EndsWith(".pdf"))
             {
                 Type = PresentationType.PDF;
-                this.DateTimeString = Path.GetFileName(Filename).Substring(4, Path.GetFileName(Filename).Length - 8);
+                //this.DateTimeString = Path.GetFileName(Filename).Substring(4, Path.GetFileName(Filename).Length - 8);
+                this.DateTimeString = Path.GetFileName(Filename).Substring(4);
+                this.DateTimeString = this.DateTimeString.Substring(0, DateTimeString.IndexOf('.'));
             }
             else if (Filename.EndsWith(".pwww"))
             {
                 Type = PresentationType.WWW;
-                this.DateTimeString = Path.GetFileName(Filename).Substring(4, Path.GetFileName(Filename).Length - 9);
+                //this.DateTimeString = Path.GetFileName(Filename).Substring(4, Path.GetFileName(Filename).Length - 9);
+                this.DateTimeString = Path.GetFileName(Filename).Substring(4);
+                this.DateTimeString = this.DateTimeString.Substring(0, DateTimeString.IndexOf('.'));
             }
             else
             {
